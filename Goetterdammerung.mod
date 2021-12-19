@@ -2,7 +2,6 @@ version="0.1"
 tags={
 	"Map"
 	"National Focuses"
-	"Sound"
 	"Ideologies"
 	"Events"
 }
