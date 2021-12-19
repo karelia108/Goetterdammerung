@@ -1,0 +1,7 @@
+
+# Maintheme
+music = {
+	name = "maintheme"
+	file = "FoS_Music/fos_maintheme.ogg"
+	volume = 1.0
+}

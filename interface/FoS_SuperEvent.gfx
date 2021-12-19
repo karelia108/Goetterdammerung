@@ -1,0 +1,15 @@
+spriteTypes = {
+	
+	spriteType = { 
+		name = "GFX_FoS_SuperEvent_MacArthur_picture"
+		textureFile = "gfx/superevent_pictures/FoS_SuperEvent_MacArthur.png"
+	} 
+	spriteType = { 
+		name = "GFX_FoS_SuperEvent_Eastern_Front_II_picture"
+		textureFile = "gfx/superevent_pictures/FoS_SuperEvent_Eastern_Front_II_picture.png"
+	} 
+	spriteType = {
+		name = "GFX_FoS_SuperEvent_Window_border"
+		textureFile = "gfx/interface/FoS_SuperEvent_Window.tga"
+	}
+}

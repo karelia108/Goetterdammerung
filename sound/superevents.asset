@@ -1,0 +1,14 @@
+soundeffect = {
+	name = "FoS_SuperEvent_MacArthur"
+	sounds = {
+		sound = "FoS_SuperEvent_MacArthur"
+	}
+	volume = 1
+}
+soundeffect = {
+	name = "FoS_SuperEvent_Eastern_Front_II"
+	sounds = {
+		sound = "FoS_SuperEvent_Eastern_Front_II"
+	}
+	volume = 1
+}

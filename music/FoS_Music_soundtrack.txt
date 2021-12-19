@@ -1,0 +1,10 @@
+music_station = "FoS_Music"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

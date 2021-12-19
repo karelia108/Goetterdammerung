@@ -1,0 +1,10 @@
+#GTG
+WCH = "countries/China.txt"
+MOS = "countries/Russia.txt"
+RKK = "countries/RKK.txt"
+TIW = "countries/China.txt"
+NCH = "countries/China.txt"
+NOC = "countries/China.txt"
+SHU = "countries/China.txt"
+XHI = "countries/China.txt"
+GUI = "countries/China.txt"

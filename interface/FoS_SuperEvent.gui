@@ -1,0 +1,53 @@
+guiTypes = {
+	containerWindowType = {
+		name = "FoS_SuperEvent_Window"
+		position = { x = -370 y = -300 }	
+		orientation = center
+		origo = center
+		clipping = no
+		#superevent background
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_FoS_SuperEvent_Window_border"
+		}
+		
+		iconType = {
+			name ="FoS_SuperEvent_MacArthur_picture" 
+			spriteType = "GFX_FoS_SuperEvent_MacArthur_picture"
+			position = { x=99 y = 112 }
+		}
+		iconType = {
+			name ="FoS_SuperEvent_Eastern_Front_II_picture" 
+			spriteType = "GFX_FoS_SuperEvent_Eastern_Front_II_picture"
+			position = { x=99 y = 112 }
+		}
+
+		instantTextBoxType = {
+			name = "FoS_SuperEvent_title"
+			position = { x = 323 y = 70 }
+			font = "hoi_20bs"
+			text = "[superevent_title]"
+			maxWidth = 400
+			maxHeight = 25
+		}
+		instantTextBoxType = {
+			name = "FoS_SuperEvent_textbox"
+			position = {  x = 400 y = 450 }
+			font = "hoi_18mbs"
+			text = "[superevent_desc]"
+			maxWidth = 400
+			maxHeight = 200
+		}
+		buttonType = {
+			name = "FoS_SuperEvent_Option"
+			position = { x = 260 y = 540 }
+			spriteType = "GFX_button_221x34"
+			buttonFont = "hoi_20bs"
+			shortcut = "ESCAPE"
+			buttonText = "[superevent_option]"
+			clicksound = click_open
+			clicksound = click_default
+		}
+	}
+}	

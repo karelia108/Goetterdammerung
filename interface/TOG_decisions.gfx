@@ -1,0 +1,21 @@
+spriteTypes = {
+	
+	#Government in Exile
+
+	spriteType = {
+		name = "GFX_decision_reichstag_icon"
+		texturefile = "gfx/interface/decisions/decision_reichstag_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_Suppress_inflation_icon"
+		texturefile = "gfx/interface/decisions/decision_Suppress_inflation_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_germany_reichstag_file_icon"
+		texturefile = "gfx/interface/decisions/germany_reichstag_file_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_ger_long_knive_icon"
+		texturefile = "gfx/interface/decisions/decision_ger_long_knive_icon.dds"
+	}
+}

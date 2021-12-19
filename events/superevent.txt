@@ -1,0 +1,370 @@
+add_namespace = superevent
+
+country_event = {
+	id = superevent.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event superevent.1" }
+	title = superevent.1.t
+	desc = superevent.1.desc
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		AND = {
+				USA = { 
+					has_country_flag = FoS_SuperEvent_MacArthur_event
+				}
+			NOT = {
+				has_country_flag = FoS_SuperEvent_MacArthur_event
+			}
+		}
+	}
+	
+	option = { #
+		name = superevent.1.a
+		sound_effect = "FoS_SuperEvent_MacArthur"
+		set_country_flag = FoS_SuperEvent_MacArthur
+	}
+}
+
+country_event = { #
+	id = superevent.2
+	title = superevent.2.t
+	desc = superevent.2.desc
+	picture = GFX_report_event_diplomatic_message
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			SOV = { has_government = authoritarian_socialism }
+			SOV = { 
+				has_war_with = GER
+			}
+			NOT = {
+				has_country_flag = FoS_SuperEvent_Eastern_Front_II
+			}
+		}
+	}
+
+	option = {
+		name = superevent.2.a
+		set_country_flag = FoS_SuperEvent_Eastern_Front_II
+		sound_effect = "FoS_SuperEvent_Eastern_Front_II"
+	}
+}
+
+country_event = { #
+	id = superevent.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.3"}
+	title = superevent.3.t
+	desc = superevent.3.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.3.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.4"}
+	title = superevent.4.t
+	desc = superevent.4.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.4.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.5"}
+	title = superevent.5.t
+	desc = superevent.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.5.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.6"}
+	title = superevent.6.t
+	desc = superevent.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.6.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.7"}
+	title = superevent.7.t
+	desc = superevent.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.7.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.8"}
+	title = superevent.8.t
+	desc = superevent.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.8.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.9"}
+	title = superevent.9.t
+	desc = superevent.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.9.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.10"}
+	title = superevent.10.t
+	desc = superevent.10.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.10.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.11"}
+	title = superevent.11.t
+	desc = superevent.11.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.11.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.12"}
+	title = superevent.12.t
+	desc = superevent.12.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.12.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.13"}
+	title = superevent.13.t
+	desc = superevent.13.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.13.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.14"}
+	title = superevent.14.t
+	desc = superevent.14.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.14.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.15"}
+	title = superevent.15.t
+	desc = superevent.15.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.15.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.16"}
+	title = superevent.16.t
+	desc = superevent.16.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.16.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.17"}
+	title = superevent.17.t
+	desc = superevent.17.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.17.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.18"}
+	title = superevent.18.t
+	desc = superevent.18.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.18.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.19"}
+	title = superevent.19.t
+	desc = superevent.19.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.19.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = superevent.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event superevent.20"}
+	title = superevent.20.t
+	desc = superevent.20.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = superevent.20.a
+		ai_chance = { base = 1 }
+		
+	}
+}
+

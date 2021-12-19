@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			JAP = {
+				set_country_flag = Prime_Minister_yoshida
+				set_country_flag = Tenno_Showa
+				set_country_flag = Liberty_party
+				set_country_flag = JAP_government_gui
+			}
+		}
+	}
+}

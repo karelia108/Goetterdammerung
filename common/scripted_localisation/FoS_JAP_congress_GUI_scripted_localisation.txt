@@ -1,0 +1,36 @@
+defined_text = { 
+	name = JAP_government_gui_loc
+	text = { 
+		trigger = {
+			has_country_flag = JAP_government_gui
+		}
+		localization_key = JAP_government_localisation
+	}
+}
+defined_text = { 
+	name = JAP_primeminister_loc
+	text = { 
+		trigger = {
+			has_country_flag = Prime_Minister_yoshida
+		}
+		localization_key = Prime_Minister_yoshida
+	}
+}
+defined_text = { 
+	name = JAP_Tenno_loc
+	text = { 
+		trigger = {
+			has_country_flag = Tenno_Showa
+		}
+		localization_key = Tenno_Showa
+	}
+}
+defined_text = { 
+	name = JAP_government
+	text = { 
+		trigger = {
+			has_country_flag = Prime_Minister_yoshida
+		}
+		localization_key = JAP_yoshida_government
+	}
+}

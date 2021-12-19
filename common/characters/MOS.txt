@@ -1,0 +1,19 @@
+#지도자 설정
+
+characters = {
+    # 지도자/장교
+    MOS_Kasche={
+		name = MOS_Siegfried_Kasche
+		portraits={
+			civilian={
+				large="gfx/leaders/MOS/Siegfried_Kasche.png"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ }
+			expire="1965.1.1.1"
+			id = -1
+		}
+	}
+}

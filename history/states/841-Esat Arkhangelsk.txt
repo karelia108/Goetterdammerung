@@ -1,0 +1,19 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		87 180 3075 3081 6105 9041 11042 11089 
+	}
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+	}
+	manpower=20000
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

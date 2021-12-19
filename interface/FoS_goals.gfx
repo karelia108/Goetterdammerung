@@ -1,0 +1,90 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_focus_soviet_reform"
+		texturefile = "gfx/interface/goals/focus_soviet_reform.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_german_win_icon"
+		texturefile = "gfx/interface/goals/focus_german_win_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_The_Eiserne_Kreuz"
+		texturefile = "gfx/interface/goals/focus_The_Eiserne_Kreuz.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_ger_furher"
+		texturefile = "gfx/interface/goals/focus_ger_furher.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_GER_ein_volk"
+		texturefile = "gfx/interface/goals/focus_GER_ein_volk.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_GER_diplomacy"
+		texturefile = "gfx/interface/goals/focus_GER_diplomacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_GER_ein_reich"
+		texturefile = "gfx/interface/goals/focus_GER_ein_reich.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_GER_Normalizing_the_Command_Systemr"
+		texturefile = "gfx/interface/goals/focus_GER_Normalizing_the_Command_System.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_GER_Reichstag_arson"
+		texturefile = "gfx/interface/goals/focus_GER_Reichstag_arson.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_GER_Politics"
+		texturefile = "gfx/interface/goals/focus_GER_Politics.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_beer_hoal_riot"
+		texturefile = "gfx/interface/goals/focus_beer_hoal_riot.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GER_Extinction"
+		texturefile = "gfx/interface/goals/focus_GER_Extinction.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_kaiser_reich_icon"
+		texturefile = "gfx/interface/goals/focus_kaiser_reich_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_benelux_fuck"
+		texturefile = "gfx/interface/goals/focus_benelux_fuck.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_german_glory_icon"
+		texturefile = "gfx/interface/goals/focus_german_glory_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_berlin_bom"
+		texturefile = "gfx/interface/goals/focus_berlin_bom.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_german_elected"
+		texturefile = "gfx/interface/goals/focus_german_elected.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_german_army_flags"
+		texturefile = "gfx/interface/goals/focus_german_army_flags.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_american_gyenje"
+		texturefile = "gfx/interface/goals/focus_american_gyenje.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_austria_moonje"
+		texturefile = "gfx/interface/goals/focus_austria_moonje.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_practical_progress"
+		texturefile = "gfx/interface/goals/focus_USA_practical_progress.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Federation_in_tatters"
+		texturefile = "gfx/interface/goals/focus_SOV_Federation_in_tatters.png"
+	}
+}

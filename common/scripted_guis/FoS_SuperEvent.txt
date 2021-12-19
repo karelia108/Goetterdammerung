@@ -1,0 +1,29 @@
+scripted_gui = {
+	#superevent scripted gui
+	FoS_SuperEvent_Window = {
+		context_type = player_context
+		window_name = "FoS_SuperEvent_Window"
+		
+		triggers = {
+			FoS_SuperEvent_MacArthur_visible = {
+				has_country_flag = FoS_SuperEvent_MacArthur
+			}
+			FoS_SuperEvent_Eastern_Front_II_visible = {
+				has_country_flag = FoS_SuperEvent_Eastern_Front_II
+			}
+		}
+
+		visible = {
+			OR = {
+				has_country_flag = FoS_SuperEvent_MacArthur
+				has_country_flag = FoS_SuperEvent_Eastern_Front_II
+			}
+		}
+		effects = {
+			FoS_SuperEvent_Option_click = {
+				clr_country_flag = FoS_SuperEvent_MacArthur
+				clr_country_flag = FoS_SuperEvent_Eastern_Front_II
+			}
+		}		
+	}		
+}

@@ -1,0 +1,8 @@
+category = {
+	name = "Super Events"
+	soundeffects = {
+		FoS_SuperEvent_MacArthur
+		FoS_SuperEvent_Eastern_Front_II
+	}
+	compressor = master_compressor
+}

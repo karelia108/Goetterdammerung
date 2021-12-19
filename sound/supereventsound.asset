@@ -1,0 +1,12 @@
+sound = {
+	name = "FoS_SuperEvent_MacArthur"
+	file = "menu/FoS_SuperEvent_MacArthur.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "FoS_SuperEvent_Eastern_Front_II"
+	file = "menu/FoS_SuperEvent_Eastern_Front_II.wav"
+	volume = 1
+	always_load = yes
+}

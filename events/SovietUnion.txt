@@ -1,0 +1,2210 @@
+add_namespace = SOV
+
+country_event = { #
+	id = SOV.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.1"}
+	title = SOV.1.t
+	desc = SOV.1.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.1.a
+		ai_chance = { factor = 1 }
+		kill_country_leader = yes
+		custom_effect_tooltip = SOV.kamenev_purge 
+		hidden_effect = {
+		create_country_leader = {
+			name = "Joseph Stalin"
+			desc = "POLITICS_JOSEPH_STALIN_DESC"
+			picture = "Joseph_Stalin.png"
+			expire = "1965.3.1"
+			ideology = stalinism
+			traits = {
+		
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = SOV.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.2"}
+	title = SOV.2.t
+	desc = SOV.2.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.2.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.2.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.3"}
+	title = SOV.3.t
+	desc = SOV.3.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.3.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.3.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.4"}
+	title = SOV.4.t
+	desc = SOV.4.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.4.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.4.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.5"}
+	title = SOV.5.t
+	desc = SOV.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.5.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.5.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.6"}
+	title = SOV.6.t
+	desc = SOV.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.6.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.6.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.7"}
+	title = SOV.7.t
+	desc = SOV.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.7.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.7.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.8"}
+	title = SOV.8.t
+	desc = SOV.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.8.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.8.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.9"}
+	title = SOV.9.t
+	desc = SOV.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.9.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.9.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.10"}
+	title = SOV.10.t
+	desc = SOV.10.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.10.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.10.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.11"}
+	title = SOV.11.t
+	desc = SOV.11.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.11.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.11.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.12"}
+	title = SOV.12.t
+	desc = SOV.12.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.12.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.12.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.13"}
+	title = SOV.13.t
+	desc = SOV.13.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.13.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.13.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.14"}
+	title = SOV.14.t
+	desc = SOV.14.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.14.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.14.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.15"}
+	title = SOV.15.t
+	desc = SOV.15.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.15.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.15.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.16"}
+	title = SOV.16.t
+	desc = SOV.16.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.16.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.16.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.17"}
+	title = SOV.17.t
+	desc = SOV.17.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.17.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.17.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.18"}
+	title = SOV.18.t
+	desc = SOV.18.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.18.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.18.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.19"}
+	title = SOV.19.t
+	desc = SOV.19.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.19.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.19.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.20"}
+	title = SOV.20.t
+	desc = SOV.20.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.20.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.20.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.21"}
+	title = SOV.21.t
+	desc = SOV.21.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.21.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.21.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.22"}
+	title = SOV.22.t
+	desc = SOV.22.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.22.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.22.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.23"}
+	title = SOV.23.t
+	desc = SOV.23.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.23.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.23.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.24"}
+	title = SOV.24.t
+	desc = SOV.24.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.24.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.24.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.25
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.25"}
+	title = SOV.25.t
+	desc = SOV.25.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.25.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.25.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.26
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.26"}
+	title = SOV.26.t
+	desc = SOV.26.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.26.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.26.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.27
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.27"}
+	title = SOV.27.t
+	desc = SOV.27.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.27.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.27.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.28
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.28"}
+	title = SOV.28.t
+	desc = SOV.28.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.28.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.28.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.29
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.29"}
+	title = SOV.29.t
+	desc = SOV.29.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.29.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.29.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.30
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.30"}
+	title = SOV.30.t
+	desc = SOV.30.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.30.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.30.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.31
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.31"}
+	title = SOV.31.t
+	desc = SOV.31.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.31.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.31.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.32
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.32"}
+	title = SOV.32.t
+	desc = SOV.32.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.32.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.32.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.33
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.33"}
+	title = SOV.33.t
+	desc = SOV.33.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.33.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.33.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.34
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.34"}
+	title = SOV.34.t
+	desc = SOV.34.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.34.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.34.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.35
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.35"}
+	title = SOV.35.t
+	desc = SOV.35.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.35.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.35.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.36
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.36"}
+	title = SOV.36.t
+	desc = SOV.36.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.36.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.36.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.37
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.37"}
+	title = SOV.37.t
+	desc = SOV.37.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.37.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.37.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.38
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.38"}
+	title = SOV.38.t
+	desc = SOV.38.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.38.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.38.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.39
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.39"}
+	title = SOV.39.t
+	desc = SOV.39.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.39.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.39.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.40
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.40"}
+	title = SOV.40.t
+	desc = SOV.40.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.40.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.40.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.41
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.41"}
+	title = SOV.41.t
+	desc = SOV.41.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.41.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.41.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.42
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.42"}
+	title = SOV.42.t
+	desc = SOV.42.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.42.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.42.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.43
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.43"}
+	title = SOV.43.t
+	desc = SOV.43.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.43.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.43.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.44
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.44"}
+	title = SOV.44.t
+	desc = SOV.44.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.44.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.44.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.45
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.45"}
+	title = SOV.45.t
+	desc = SOV.45.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.45.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.45.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.46
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.46"}
+	title = SOV.46.t
+	desc = SOV.46.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.46.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.46.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.47
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.47"}
+	title = SOV.47.t
+	desc = SOV.47.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.47.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.47.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.48
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.48"}
+	title = SOV.48.t
+	desc = SOV.48.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.48.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.48.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.49
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.49"}
+	title = SOV.49.t
+	desc = SOV.49.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.49.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.49.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.50
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.50"}
+	title = SOV.50.t
+	desc = SOV.50.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.50.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.50.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.51
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.51"}
+	title = SOV.51.t
+	desc = SOV.51.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.51.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.51.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.52
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.52"}
+	title = SOV.52.t
+	desc = SOV.52.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.52.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.52.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.53
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.53"}
+	title = SOV.53.t
+	desc = SOV.53.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.53.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.53.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.54
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.54"}
+	title = SOV.54.t
+	desc = SOV.54.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.54.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.54.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.55
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.55"}
+	title = SOV.55.t
+	desc = SOV.55.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.55.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.55.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.56
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.56"}
+	title = SOV.56.t
+	desc = SOV.56.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.56.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.56.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.57
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.57"}
+	title = SOV.57.t
+	desc = SOV.57.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.57.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.57.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.58
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.58"}
+	title = SOV.58.t
+	desc = SOV.58.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.58.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.58.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.59
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.59"}
+	title = SOV.59.t
+	desc = SOV.59.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.59.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.59.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.60
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.60"}
+	title = SOV.60.t
+	desc = SOV.60.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.60.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.60.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.61
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.61"}
+	title = SOV.61.t
+	desc = SOV.61.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.61.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.61.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.62
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.62"}
+	title = SOV.62.t
+	desc = SOV.62.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.62.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.62.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.63
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.63"}
+	title = SOV.63.t
+	desc = SOV.63.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.63.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.63.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.64
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.64"}
+	title = SOV.64.t
+	desc = SOV.64.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.64.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.64.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.65
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.65"}
+	title = SOV.65.t
+	desc = SOV.65.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.65.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.65.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.66
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.66"}
+	title = SOV.66.t
+	desc = SOV.66.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.66.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.66.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.67
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.67"}
+	title = SOV.67.t
+	desc = SOV.67.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.67.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.67.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.68
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.68"}
+	title = SOV.68.t
+	desc = SOV.68.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.68.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.68.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.69
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.69"}
+	title = SOV.69.t
+	desc = SOV.69.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.69.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.69.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.70
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.70"}
+	title = SOV.70.t
+	desc = SOV.70.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.70.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.70.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.71
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.71"}
+	title = SOV.71.t
+	desc = SOV.71.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.71.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.71.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.72
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.72"}
+	title = SOV.72.t
+	desc = SOV.72.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.72.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.72.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.73
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.73"}
+	title = SOV.73.t
+	desc = SOV.73.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.73.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.73.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.74
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.74"}
+	title = SOV.74.t
+	desc = SOV.74.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.74.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.74.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.75
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.75"}
+	title = SOV.75.t
+	desc = SOV.75.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.75.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.75.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.76
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.76"}
+	title = SOV.76.t
+	desc = SOV.76.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.76.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.76.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.77
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.77"}
+	title = SOV.77.t
+	desc = SOV.77.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.77.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.77.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.78
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.78"}
+	title = SOV.78.t
+	desc = SOV.78.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.78.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.78.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.79
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.79"}
+	title = SOV.79.t
+	desc = SOV.79.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.79.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.79.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.80
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.80"}
+	title = SOV.80.t
+	desc = SOV.80.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.80.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.80.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.81
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.81"}
+	title = SOV.81.t
+	desc = SOV.81.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.81.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.81.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.82
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.82"}
+	title = SOV.82.t
+	desc = SOV.82.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.82.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.82.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.83
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.83"}
+	title = SOV.83.t
+	desc = SOV.83.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.83.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.83.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.84
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.84"}
+	title = SOV.84.t
+	desc = SOV.84.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.84.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.84.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.85
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.85"}
+	title = SOV.85.t
+	desc = SOV.85.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.85.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.85.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.86
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.86"}
+	title = SOV.86.t
+	desc = SOV.86.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.86.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.86.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.87
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.87"}
+	title = SOV.87.t
+	desc = SOV.87.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.87.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.87.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.88
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.88"}
+	title = SOV.88.t
+	desc = SOV.88.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.88.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.88.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.89
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.89"}
+	title = SOV.89.t
+	desc = SOV.89.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.89.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.89.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.90
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.90"}
+	title = SOV.90.t
+	desc = SOV.90.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.90.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.90.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.91
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.91"}
+	title = SOV.91.t
+	desc = SOV.91.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.91.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.91.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.92
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.92"}
+	title = SOV.92.t
+	desc = SOV.92.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.92.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.92.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.93
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.93"}
+	title = SOV.93.t
+	desc = SOV.93.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.93.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.93.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.94
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.94"}
+	title = SOV.94.t
+	desc = SOV.94.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.94.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.94.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.95
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.95"}
+	title = SOV.95.t
+	desc = SOV.95.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.95.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.95.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.96
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.96"}
+	title = SOV.96.t
+	desc = SOV.96.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.96.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.96.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.97
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.97"}
+	title = SOV.97.t
+	desc = SOV.97.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.97.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.97.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.98
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.98"}
+	title = SOV.98.t
+	desc = SOV.98.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.98.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.98.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.99
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.99"}
+	title = SOV.99.t
+	desc = SOV.99.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.99.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.99.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = SOV.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SOV.100"}
+	title = SOV.100.t
+	desc = SOV.100.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = SOV.100.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = SOV.100.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+

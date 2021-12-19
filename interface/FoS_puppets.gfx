@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_SOF_German_empire_autonomous_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_SOF_German_empire_autonomous_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_ITA_empire_dominion"
+		textureFile = "gfx/interface/autonomy/autonomy_ITA_empire_dominion.tga"
+	}
+}

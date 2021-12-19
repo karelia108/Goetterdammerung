@@ -1,0 +1,56 @@
+scripted_gui = {
+	FoS_JAP_congress_GUI_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "FoS_JAP_congress_GUI_open"
+
+		visible = {
+			tag = JAP
+		}
+
+		effects = {
+			FoS_JAP_congress_GUI_open_click = {
+				if = {
+					limit = { NOT = { has_country_flag = FoS_JAP_congress_GUI_open_flag } }
+					set_country_flag = FoS_JAP_congress_GUI_open_flag
+				}
+				else_if = {
+					limit = { has_country_flag = FoS_JAP_congress_GUI_open_flag }
+					clr_country_flag = FoS_JAP_congress_GUI_open_flag
+				}
+			}
+		}
+	}
+
+	FoS_JAP_congress_GUI = {
+		context_type = player_context
+		parent_window_token = FoS_JAP_congress_GUI_open
+		window_name = "FoS_JAP_congress_GUI"
+		visible = {
+			tag = JAP
+			has_country_flag = FoS_JAP_congress_GUI_open_flag
+		}
+		triggers = {
+			JAP_yoshida_visible = {
+				has_country_flag = Prime_Minister_yoshida
+			}
+			JAP_showa_visible = {
+				has_country_flag = Tenno_Showa
+			}
+			JAP_Liberty_party_visible = {
+				has_country_flag = Liberty_party
+			}
+			japan_yoshida_government_visible = {
+				has_country_flag = Prime_Minister_yoshida 
+			}
+			JAP_government_visible = {
+				has_country_flag = Prime_Minister_yoshida 
+			}
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = FoS_JAP_congress_GUI_open_flag
+			}
+		}
+	}
+}

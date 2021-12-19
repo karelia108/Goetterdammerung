@@ -1,0 +1,20 @@
+state={
+	id=845
+	name="STATE_845"
+	provinces={
+		9849 
+	}
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = YUG
+		add_core_of = KOS
+		add_core_of = SER
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

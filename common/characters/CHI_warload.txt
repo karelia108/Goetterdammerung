@@ -1,0 +1,17 @@
+#China War load leaders
+
+characters = {
+    CHI_warload={
+		name=CHI_warload
+		portraits={
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

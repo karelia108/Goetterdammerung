@@ -1,0 +1,49 @@
+defined_text = { #title
+	name = superevent_title
+	#title
+	text = { 
+		trigger = {
+			has_country_flag = FoS_SuperEvent_MacArthur
+		}
+		localization_key = FoS_SuperEvent_MacArthur_T
+	}
+	text = { 
+		trigger = {
+			has_country_flag = FoS_SuperEvent_Eastern_Front_II
+		}
+		localization_key = FoS_SuperEvent_Eastern_Front_II_T
+	}
+
+}
+defined_text = { #desc
+	name = superevent_desc
+	#desc
+	text = { 
+		trigger = {
+			has_country_flag = FoS_SuperEvent_MacArthur
+		}
+		localization_key = FoS_SuperEvent_MacArthur_D
+	}
+	text = { 
+		trigger = {
+			has_country_flag = FoS_SuperEvent_Eastern_Front_II
+		}
+		localization_key = FoS_SuperEvent_Eastern_Front_II_D
+	}
+}
+defined_text = { #option
+	name = superevent_option
+	#option
+	text = { 
+		trigger = {
+			has_country_flag = FoS_SuperEvent_MacArthur
+		}
+		localization_key = FoS_SuperEvent_MacArthur_A
+	}
+	text = { 
+		trigger = {
+			has_country_flag = FoS_SuperEvent_Eastern_Front_II
+		}
+		localization_key = FoS_SuperEvent_Eastern_Front_II_A
+	}
+}	

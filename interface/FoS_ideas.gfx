@@ -1,0 +1,59 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_idea_Treaty_of_Versailles_ideas"
+		texturefile = "gfx/interface/ideas/Treaty_of_Versailles_ideas.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_axis"
+		texturefile = "gfx/interface/ideas/idea_ReichsPakt.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_axis_slave"
+		texturefile = "gfx/interface/ideas/idea_ReichsPakt.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_Land_of_Liberty"
+		texturefile = "gfx/interface/ideas/idea_Land_of_Liberty.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_Problems_in_the_US"
+		texturefile = "gfx/interface/ideas/idea_Problems_in_the_US.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_divided_politics"
+		texturefile = "gfx/interface/ideas/idea_divided_politics.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_axis"
+		texturefile = "gfx/interface/ideas/idea_ReichsPakt.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_Mid_stage_inflation"
+		texturefile = "gfx/interface/ideas/Mid_stage_inflation.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_Economic_collapse"
+		texturefile = "gfx/interface/ideas/idea_Economic_collapse.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_capital_sentence"
+		texturefile = "gfx/interface/ideas/idea_capital_sentence.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_German_Soviet_Treaty"
+		texturefile = "gfx/interface/ideas/idea_German_Soviet_Treaty.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_disastrous_Germania"
+		texturefile = "gfx/interface/ideas/idea_disastrous_Germania.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_Red_July"
+		texturefile = "gfx/interface/ideas/idea_Red_July.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_Third_Fair_Deal"
+		texturefile = "gfx/interface/ideas/idea_Third_Fair_Deal.png"
+	}
+}

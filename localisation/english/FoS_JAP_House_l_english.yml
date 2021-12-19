@@ -1,0 +1,6 @@
+﻿l_english:
+ JAP_government_localisation:0 "현재 집권당은 §Y[ROOT.GetRulingParty]§!입니다."
+ Prime_Minister_yoshida:0 "요시다 시게루"
+ Tenno_Showa:0 "쇼와 천황"
+ JAP_yoshida_government:0 "현재 내각은 §C연립 정부§!입니다.\n§Y연립 정부§! - §G자유당§!,§C민주당§!,§O사회당§!,§B일본 자유당§!"
+ JAP_house:0 "중의원 의석 수 - §G[?JAP_house_approval]§! / §Y[?JAP_house_total]§!"
