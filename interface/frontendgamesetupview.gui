@@ -9,7 +9,7 @@ guiTypes = {
 	### bookmark entry
 	containerWindowType = {
 		name = "bookmark_entry"
-		position = { x= 130 y = 0 }
+		position = { x= 0 y = 0 }
 		size = { width=232 height=211}
 		clipping = no
 		fade_time = 500
@@ -24,19 +24,19 @@ guiTypes = {
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_select_date_1936"
-			position = { x = -180 y = 0 }
-			allwaystransparent = yes
+			position = { x = 27 y = 28 }
+			alwaystransparent = yes
 		}
+
 		instantTextBoxType = {
 			name = "date"
-			#position = { x = 22 y = 147 }
-			position = { x = -6000 y = 147 }
-			font = "hoi_18"
+			position = { x = 22 y = 147 }
+			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = "FE_BOOKMARK_DATE"
 			maxWidth = 185
 			maxHeight = 20
-			fixedsize = yes
+			fixedsize = yes	
 			format = centre
 		}
 	}
@@ -70,7 +70,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "spirit_modifier_entry"
-		size = { width=60 height=66 }
+		size = { width=60 height=68 }
 		clipping = no
 		
 		iconType = {
@@ -91,14 +91,14 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "spirit_modifier_entry_small"
-		size = { width=60 height=66 }
+		size = { width=33 height=37 }
 		clipping = no
 		
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
-			position = { x = -15 y = -25 }
+			centerPosition = yes
 			scale = 0.55
 		}
 		
@@ -123,14 +123,55 @@ guiTypes = {
 		}
 	}
 	
-	### country entry 
-	containerWindowType = { #26/22
+	### country entry
+	containerWindowType = {
 		name = "country_entry"
-
+			
+		buttonType = {
+			name = "country_leader"
+			quadTextureSprite ="GFX_leader_unknown"
+			position = { x = 17 y = 22 }
+			scale=0.75
+			clicksound = click_checkbox
+		}
+	
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 37 y = 307 }
+			position = { x = 34 y = 188 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}		
+	
+		buttonType = {
+			name = "country"	
+			quadTextureSprite = "GFX_country_selection_entry"
+			position = { x=0 y =0 }
+			clicksound = click_checkbox
+		}		
+		
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 8 y = 247 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 131
+			maxHeight = 20
+			fixedsize = yes	
+			format = center		
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+	### country entry
+	containerWindowType = {
+		name = "country_entry_medium"
+				
+			
+		iconType = {
+			name = "country_flag"
+			quadTextureSprite ="GFX_shield_medium"
+			position = { x = 26 y = 22 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}		
@@ -138,7 +179,7 @@ guiTypes = {
 		buttonType = {
 			name = "country"	
 			quadTextureSprite = "GFX_country_selection_minor_entry"
-			position = { x = 9 y =285 }
+			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}		
 	}
@@ -150,7 +191,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_flag_small2"
-			position = { x = 8 y = 7 }
+			position = { x = 9 y = 8 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

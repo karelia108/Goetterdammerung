@@ -6,9 +6,9 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
-	
+
 		"FRA"={
-			history = "GTG_FRA_GATHERING_STORM_DESC"
+			history = "GTD_FRA_GATHERING_STORM_DESC"
 			ideology = authoritarian_democracy
 			ideas = {
 
@@ -17,7 +17,7 @@ bookmarks = {
 			}
 		}
 		"USA"={
-			history = "GTG_USA_GATHERING_STORM_DESC"
+			history = "GTD_USA_GATHERING_STORM_DESC"
 			ideology = liberal_democracy
 			ideas = {
 
@@ -27,7 +27,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
-			history = "GTG_ENG_GATHERING_STORM_DESC"
+			history = "GTD_ENG_GATHERING_STORM_DESC"
 			ideology = social_democracy
 			ideas = {
 
@@ -37,7 +37,7 @@ bookmarks = {
 			}
 		}
 		"GER"={
-			history = "GTG_GER_GATHERING_STORM_DESC"
+			history = "GTD_GER_GATHERING_STORM_DESC"
 			ideology = national_socialism
 			ideas = {
 				
@@ -47,7 +47,7 @@ bookmarks = {
 			}
 		}
 		"ITA"={
-			history = "GTG_ITA_GATHERING_STORM_DESC"
+			history = "GTD_ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 
@@ -57,7 +57,7 @@ bookmarks = {
 			}		
 		}
 		"JAP"={
-			history = "GTG_JAP_GATHERING_STORM_DESC"
+			history = "GTD_JAP_GATHERING_STORM_DESC"
 			ideology = liberal_democracy
 			ideas = {
 
@@ -67,7 +67,7 @@ bookmarks = {
 			}			
 		}
 		"SOV"={
-			history = "GTG_SOV_GATHERING_STORM_DESC"
+			history = "GTD_SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				
