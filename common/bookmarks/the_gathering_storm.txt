@@ -3,41 +3,12 @@ bookmarks = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
 		date = 1944.1.1.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1944"
 		default_country = "GER"
 		default = yes
 
-		"FRA"={
-			history = "GTD_FRA_GATHERING_STORM_DESC"
-			ideology = authoritarian_democracy
-			ideas = {
-
-			}
-			focuses = {
-			}
-		}
-		"USA"={
-			history = "GTD_USA_GATHERING_STORM_DESC"
-			ideology = liberal_democracy
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-		"ENG"={
-			history = "GTD_ENG_GATHERING_STORM_DESC"
-			ideology = social_democracy
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
 		"GER"={
-			history = "GTD_GER_GATHERING_STORM_DESC"
+			history = "GER_GATHERING_STORM_DESC"
 			ideology = national_socialism
 			ideas = {
 				
@@ -46,38 +17,69 @@ bookmarks = {
 				
 			}
 		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = liberal_democracy
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = social_democracy
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
 		"ITA"={
-			history = "GTD_ITA_GATHERING_STORM_DESC"
+			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 
 			}	
 			focuses = {
-
-			}		
+				
+			}	
 		}
 		"JAP"={
-			history = "GTD_JAP_GATHERING_STORM_DESC"
+			history = "JAP_GATHERING_STORM_DESC"
 			ideology = liberal_democracy
 			ideas = {
 
 			}	
 			focuses = {
-
-			}			
-		}
-		"SOV"={
-			history = "GTD_SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
 				
-			}
-
-			focuses = {
+			}		
+		}
+		#minor
+		"MOS"={
+			minor = yes
+			history = "MOS_GATHERING_STORM_DESC"
+			ideology = national_socialism
+			ideas = {
 
 			}	
+			focuses = {
+				
+			}		
 		}
+		"CHI"={
+			minor = yes
+			history = "MOS_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
 
+			}	
+			focuses = {
+				
+			}		
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
