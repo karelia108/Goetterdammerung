@@ -2,11 +2,16 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1944.1.1.12
+		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
 
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+		
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = national_socialism
@@ -79,10 +84,6 @@ bookmarks = {
 			focuses = {
 				
 			}		
-		}
-		effect = {
-			randomize_weather = 12345 # <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
 		}
 	}
 }
