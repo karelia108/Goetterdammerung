@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = SOV
+		owner = RKK
+		add_core_of = RKK
 		buildings = {
 			infrastructure = 2
 

@@ -6,11 +6,6 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
-
-		effect = {
-			randomize_weather = 12345 # <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
-		}
 		
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
@@ -84,6 +79,11 @@ bookmarks = {
 			focuses = {
 				
 			}		
+		}
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
 		}
 	}
 }

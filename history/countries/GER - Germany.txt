@@ -136,6 +136,48 @@ set_popularities = {
 
 create_faction = Axis
 add_to_faction = GER
+add_to_faction = ITA
+
+set_autonomy = {
+	target = SLO
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = HOL
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = BEL
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = SER
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = DEN
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = NOR
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = BLR
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = UKR
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = RKK
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = MOS
+	autonomous_state = autonomy_reichskommissariat
+}
 
 
 add_ideas = {

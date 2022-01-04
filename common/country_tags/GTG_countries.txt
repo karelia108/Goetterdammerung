@@ -1,4 +1,4 @@
-#GTG
+#tag
 WCH = "countries/China.txt"
 MOS = "countries/Russia.txt"
 RKK = "countries/RKK.txt"
