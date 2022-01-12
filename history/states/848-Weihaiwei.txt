@@ -1,0 +1,35 @@
+
+state={
+	id=848
+	name="STATE_848"
+
+	history={
+		owner = ENG
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			4205 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4205 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,6 +1,21 @@
 ideas = {
 
 	country = {
+		JAP_showa_democracy = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+
+            modifier = {
+				political_power_cost = 0.02
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+            }
+        }
 		JAP_no_army = {
             allowed = {
                 always = no
@@ -17,6 +32,34 @@ ideas = {
 				industrial_capacity_dockyard = -0.2				
 				war_support_factor = -0.2
 				custom_modifier_tooltip = JAP_not_army
+            }
+        }
+		JAP_china_profit = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+
+            modifier = {
+				consumer_goods_factor = -0.025
+            }
+        }
+		JAP_break_dai_hon_ai = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+
+            modifier = {
+				war_support_factor = -0.1
+				command_power_gain_mult = -0.6
+				max_command_power_mult = -0.2
             }
         }
 		JAP_josen_problem = {

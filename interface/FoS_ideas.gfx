@@ -56,4 +56,8 @@ spriteTypes = {
 		name = "GFX_idea_Third_Fair_Deal"
 		texturefile = "gfx/interface/ideas/idea_Third_Fair_Deal.png"
 	}
+	SpriteType = {
+		name = "GFX_idea_JAP_break_economic"
+		texturefile = "gfx/interface/ideas/idea_JAP_break_economic.png"
+	}
 }

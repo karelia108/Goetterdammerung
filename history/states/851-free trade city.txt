@@ -1,0 +1,31 @@
+
+state={
+	id=851
+	name="STATE_851"
+
+	history={
+		owner = WCH
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = WCH
+		buildings = {
+			infrastructure = 4
+			4013 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4013 
+	}
+	manpower=35000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

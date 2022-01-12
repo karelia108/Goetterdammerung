@@ -1,0 +1,33 @@
+
+state={
+	id=847
+	name="STATE_847"
+
+	history={
+		owner = JAP
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			air_base = 7
+			10068 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			10068 20 
+		}
+
+	}
+
+	provinces={
+		10068 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

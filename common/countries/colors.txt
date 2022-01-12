@@ -744,3 +744,7 @@ GUI = {
 	color = rgb { 129 89 40 }
 	color_ui = rgb { 129 89 40 }
 }
+SHI = {
+	color = rgb { 129 89 40 }
+	color_ui = rgb { 129 89 40 }
+}
