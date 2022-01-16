@@ -186,16 +186,20 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = rgb { 130 0 0 }
-	color_ui = rgb { 130 0 0 }
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
 }
 KOR = {
-	color = rgb { 130 0 0 }
-	color_ui = rgb { 130 0 0 }
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
 }
 TIW = {
-	color = rgb { 130 0 0 }
-	color_ui = rgb { 130 0 0 }
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+JPS = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -747,4 +751,12 @@ GUI = {
 SHI = {
 	color = rgb { 129 89 40 }
 	color_ui = rgb { 129 89 40 }
+}
+FHL = {	
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
+}
+LVT = {
+	color = rgb { 73 135 65 }
+	color_ui = rgb { 73 135 65 }
 }

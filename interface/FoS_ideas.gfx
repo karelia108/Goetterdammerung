@@ -57,7 +57,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_Third_Fair_Deal.png"
 	}
 	SpriteType = {
-		name = "GFX_idea_JAP_break_economic"
-		texturefile = "gfx/interface/ideas/idea_JAP_break_economic.png"
+		name = "GFX_idea_JAP_huge_amount_compensation"
+		texturefile = "gfx/interface/ideas/idea_JAP_huge_amount_compensation.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_break_dai_hon_ai"
+		texturefile = "gfx/interface/ideas/idea_JAP_break_dai_hon_ai.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_no_army"
+		texturefile = "gfx/interface/ideas/idea_JAP_no_army.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_showa_democracy"
+		texturefile = "gfx/interface/ideas/idea_JAP_showa_democracy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_josen_problem"
+		texturefile = "gfx/interface/ideas/idea_JAP_josen_problem.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_china_profit"
+		texturefile = "gfx/interface/ideas/idea_JAP_china_profit.png"
 	}
 }

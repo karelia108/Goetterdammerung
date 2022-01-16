@@ -1,0 +1,22 @@
+#China War load leaders
+
+characters = {
+    HOL_wilhelmina = {
+		name=FHL_wilhelmina
+		gender = female 
+		country_leader={
+			expire = "1965.1.1"
+			ideology = conservatist
+			traits = {
+				wilhelmina
+				disdain_for_politicians_1
+				queen_of_the_people
+			}
+		}
+		portraits={
+			civilian={
+				large="GFX_portrait_HOL_wilhelmina"
+			}
+		}
+	}
+}

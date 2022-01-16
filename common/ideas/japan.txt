@@ -11,7 +11,7 @@ ideas = {
             removal_cost = -1
 
             modifier = {
-				political_power_cost = 0.02
+				political_power_cost = -0.02
 				stability_factor = 0.1
 				consumer_goods_factor = -0.05
             }
@@ -74,7 +74,6 @@ ideas = {
             modifier = {
 				stability_factor = -0.15
 				political_power_cost = 0.1
-				conscription_factor = -0.1
             }
         }
 		JAP_break_economic = {
