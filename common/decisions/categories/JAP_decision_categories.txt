@@ -1,6 +1,0 @@
-JAP_Managing_government_general = {
-	allowed = {
-		original_tag = JAP
-	}
-	priority = 99
-}

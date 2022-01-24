@@ -12,7 +12,6 @@ dependencies={
 
 replace_path="common/bookmarks"
 replace_path="history/states"
-replace_path="map"
 replace_path="common/ideologies"
 
 name="Götterdämmerung"
