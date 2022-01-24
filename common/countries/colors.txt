@@ -760,3 +760,7 @@ LVT = {
 	color = rgb { 73 135 65 }
 	color_ui = rgb { 73 135 65 }
 }
+RUS = {
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
+}

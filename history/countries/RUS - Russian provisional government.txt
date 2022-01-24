@@ -1,9 +1,12 @@
-﻿capital = 755
+﻿capital = 408
 
 set_stability = 0.4
 set_war_support = 0.6
 set_research_slots = 3
 set_technology = {
+}
+
+add_ideas = {	
 }
 
 set_politics = {
@@ -16,5 +19,3 @@ set_politics = {
 set_popularities = {
 	absolutism = 100
 }
-
-recruit_character = CHI_warload
