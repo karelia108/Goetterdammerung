@@ -1,0 +1,20 @@
+state={
+	id=856
+	name="STATE_856"
+	provinces={
+		1018 4023 7192 10004 11926 
+	}
+	history={
+		owner = GUG
+		add_core_of = GUG
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=2100000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

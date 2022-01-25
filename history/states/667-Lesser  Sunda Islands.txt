@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = POR
+		owner = JPS
 		add_core_of = INS
 		buildings = {
 			infrastructure = 2

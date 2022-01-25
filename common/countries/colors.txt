@@ -745,8 +745,8 @@ XHI = {
 	color_ui = rgb { 183 127 58 }
 }
 GUI = {
-	color = rgb { 129 89 40 }
-	color_ui = rgb { 129 89 40 }
+	color = rgb { 123 82 32 }
+	color_ui = rgb { 123 82 32 }
 }
 SHI = {
 	color = rgb { 129 89 40 }
@@ -763,4 +763,8 @@ LVT = {
 RUS = {
 	color = rgb { 0 127 14 }
 	color_ui = rgb { 0 127 14 }
+}
+GUG = {
+	color = rgb { 0 90 70 }
+	color_ui = rgb { 0 90 70 }
 }
