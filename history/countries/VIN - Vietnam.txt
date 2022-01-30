@@ -1,0 +1,23 @@
+﻿capital = 671 #Hanoi
+
+oob = "VIN_1936"
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}
+
+declare_war_on = {
+	target = FRA
+	type = annex_everything
+}
+
+
+
