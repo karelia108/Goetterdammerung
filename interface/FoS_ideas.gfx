@@ -80,4 +80,8 @@ spriteTypes = {
 		name = "GFX_idea_JAP_china_profit"
 		texturefile = "gfx/interface/ideas/idea_JAP_china_profit.png"
 	}
+	SpriteType = {
+		name = "GFX_idea_JAP_break_economic"
+		texturefile = "gfx/interface/ideas/idea_JAP_break_economic.png"
+	}
 }
