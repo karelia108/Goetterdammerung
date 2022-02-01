@@ -768,3 +768,7 @@ GUG = {
 	color = rgb { 0 90 70 }
 	color_ui = rgb { 0 90 70 }
 }
+FEA = {
+	color = rgb { 81 93 100 }
+	color_ui = rgb { 81 93 100 }
+}

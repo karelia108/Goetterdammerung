@@ -1,0 +1,12 @@
+JAP_house_dec = {
+	icon = usa_congress
+	allowed = {
+		tag = JAP
+	}
+
+	visible = {
+		tag = JAP
+	}
+	scripted_gui = jap_house_decision_ui
+	priority = 85
+}
