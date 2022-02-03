@@ -46,6 +46,9 @@ set_technology = {
 }
 
 add_ideas = {
+	CHI_Total_collapse
+	CHI_Outlaw
+	CHI_Incompetent_government
 }
 
 set_politics = {
