@@ -1,0 +1,25 @@
+state={
+	id=860
+	name="STATE_860"
+	provinces={
+		12724 
+	}
+	history={
+		owner = TIB
+		add_core_of = CHI
+		add_core_of = TIB
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			12724 1 
+		}
+
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

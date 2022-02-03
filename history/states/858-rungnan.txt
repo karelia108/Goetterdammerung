@@ -1,0 +1,22 @@
+state={
+	id=858
+	name="STATE_858"
+	provinces={
+		531 4313 4403 5193 7397 12797 12882 
+	}
+	history={
+		owner = NOC
+		add_core_of = NOC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+	manpower=1240000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

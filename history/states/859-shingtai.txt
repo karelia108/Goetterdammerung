@@ -1,0 +1,22 @@
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		1139 4114 4144 4606 7074 
+	}
+	history={
+		owner = NCH
+		add_core_of = NCH
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+	manpower=3240000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

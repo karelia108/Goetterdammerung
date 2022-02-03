@@ -468,7 +468,7 @@ ideologies = {
 	authoritarian_democracy = {
 	
 		types = {
-			authoritarian_democracy_ideology = {
+			wang_jingwei_china = {
 			}
 			
 			estado_novo  = {
@@ -534,7 +534,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 124 124 124 }
+		color = { 50 50 50 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger

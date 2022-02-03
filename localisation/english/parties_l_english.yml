@@ -70,3 +70,7 @@
  GER_national_socialism_party_long:0 "국가 사회주의 독일 노동자당"
  SOV_communism_party_russian:0 "전연방 공산당"
  SOV_communism_party_russian_long:0 "전연방 공산당"
+
+ #소이념
+ wang_jingwei_china:0 "왕징웨이 정부"
+ wang_jingwei_china_desc:0 "왕징웨이 정부는 일본 제국에 의해 세워졌으나, 일제의 패전 이후 왕징웨이 정권은 이도저도 아니게 머물고있습니다."

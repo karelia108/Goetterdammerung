@@ -9,11 +9,10 @@ tags={
 dependencies={
 	"Korean Language (Europa)"
 }
-
 replace_path="common/bookmarks"
 replace_path="history/states"
 replace_path="common/ideologies"
-
 name="Götterdämmerung"
 supported_version="1.11.4"
 path=""
+remote_file_id="2740080393"

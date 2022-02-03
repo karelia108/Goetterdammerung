@@ -49,12 +49,12 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
+	ruling_party = authoritarian_democracy
+	last_election = "1938.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 100
+	authoritarian_democracy = 100
 }
