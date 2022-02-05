@@ -1,0 +1,11 @@
+NOC_nationalist_dec = {
+	icon = usa_congress
+	allowed = {
+		tag = NOC
+	}
+
+	visible = {
+		tag = NOC
+	}
+	priority = 85
+}

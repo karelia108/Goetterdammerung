@@ -1,0 +1,30 @@
+NOC_nationalist_dec = { #613 - Nanjing
+    NOC_War_of_unification = {
+        available = {
+			tag = NOC
+            controls_state = 613
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+
+			}
+		}
+
+		visible = {
+			tag = NOC
+		}
+
+		complete_effect = {
+            NOC = {
+                every_state = {
+					limit = { is_core_of = CHI }
+					add_core_of = NOC
+				}
+            }
+		}
+    }
+}

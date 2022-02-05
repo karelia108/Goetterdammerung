@@ -776,3 +776,6 @@ FID = {
 	color = rgb { 171 113 1 }
 	color_ui = rgb { 171 113 1 }
 }
+FBE = { color 	 = rgb { 193 171 8  }
+		color_ui = rgb { 251 222 10 }
+	  }

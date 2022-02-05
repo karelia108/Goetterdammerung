@@ -1,0 +1,21 @@
+﻿capital = 295
+
+oob = ""
+
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.3 #we see what you are doing there Adolf
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1940.11.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	national_socialism = 100
+}
+
+set_convoys = 80
+set_stability = 0.75
