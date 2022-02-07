@@ -315,4 +315,8 @@ spriteTypes = {
         name = "GFX_portrait_overay"
         texturefile = "gfx/interface/portrait_overay_a.png"
     }
+	spriteType = {
+        name = "GFX_flag_overlay_three"
+        texturefile = "gfx/interface/flag_overlay_3.png"
+    }
 }

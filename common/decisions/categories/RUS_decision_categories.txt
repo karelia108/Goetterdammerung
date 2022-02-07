@@ -1,0 +1,11 @@
+RUS_unification_dec = {
+	icon = usa_congress
+	allowed = {
+		tag = RUS
+	}
+
+	visible = {
+		tag = RUS
+	}
+	priority = 85
+}

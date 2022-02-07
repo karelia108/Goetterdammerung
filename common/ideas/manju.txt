@@ -1,0 +1,69 @@
+ideas = {
+	country = {
+		MAN_Bigger_influence = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		#
+		CHI_Total_collapse = {
+		
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				Production_speed_buildings_factor = -0.7
+				industrial_capacity_factory = -0.3
+			}
+		}
+		CHI_Outlaw = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.25
+				political_power_gain = -0.2
+				production_factory_max_efficiency_factor = -0.6
+				production_factory_efficiency_gain_factor = -0.5
+			}
+		}
+		CHI_Incompetent_government = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.5
+			}
+		}
+	}
+}

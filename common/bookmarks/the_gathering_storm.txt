@@ -7,16 +7,6 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = national_socialism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = liberal_democracy
@@ -37,15 +27,25 @@ bookmarks = {
 				
 			}
 		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+		"---"={
+			history = "ZZZ_GATHERING_STORM_DESC"
+			ideology = social_democracy
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
 			ideas = {
 
 			}	
 			focuses = {
 				
-			}	
+			}		
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
@@ -57,28 +57,35 @@ bookmarks = {
 				
 			}		
 		}
-		#minor
-		"MOS"={
-			minor = yes
-			history = "MOS_GATHERING_STORM_DESC"
-			ideology = national_socialism
+		"---"={
+			history = "ZZZ_GATHERING_STORM_DESC"
+			ideology = social_democracy
 			ideas = {
 
-			}	
+			}
 			focuses = {
 				
-			}		
+			}
 		}
-		"CHI"={
-			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = national_socialism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 
 			}	
 			focuses = {
 				
-			}		
+			}	
 		}
 		
 		effect = {
