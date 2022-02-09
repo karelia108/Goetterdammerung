@@ -19,4 +19,8 @@ set_popularities = {
 	absolutism = 100
 }
 
+add_ideas = {
+	KOR_japan_korea_annex
+}
+
 recruit_character = #

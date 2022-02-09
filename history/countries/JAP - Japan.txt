@@ -8,6 +8,8 @@ set_war_support = 0.8
 set_research_slots = 4
 set_fuel_ratio = 1.0
 add_ideas = {
+	disarmed_nation
+	
 	JAP_showa_democracy
 	JAP_no_army
 	JAP_josen_problem
