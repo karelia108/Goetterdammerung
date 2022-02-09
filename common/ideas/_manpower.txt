@@ -16,7 +16,7 @@ ideas = {
 						tag = JAP
 					}
 					NOT = {
-						has_ideas = JAP_no_army
+						has_idea = JAP_no_army
 					}
 				}
 			}
@@ -40,7 +40,7 @@ ideas = {
 						tag = JAP
 					}
 					NOT = {
-						has_ideas = JAP_no_army
+						has_idea = JAP_no_army
 					}
 				}
 			}
@@ -77,7 +77,7 @@ ideas = {
 						tag = JAP
 					}
 					NOT = {
-						has_ideas = JAP_no_army
+						has_idea = JAP_no_army
 					}
 				}
 			}

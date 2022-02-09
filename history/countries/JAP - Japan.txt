@@ -1,4 +1,4 @@
-﻿capital = 282
+﻿capital = 861
 
 set_variable = { var = JAP_house_approval value = 233 }
 set_variable = { var = JAP_house_total value = 441 }
