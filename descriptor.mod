@@ -7,7 +7,7 @@ tags={
 	"Events"
 }
 dependencies={
-	"Korean Language (Europa)"
+	"Korean Language"
 }
 replace_path="common/bookmarks"
 replace_path="history/states"
