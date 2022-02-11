@@ -1,0 +1,131 @@
+characters={
+	USA_Alfred_Mossman_Landon={
+		name=USA_Alfred_Mossman_Landon
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Alfred_Mossman_Landon.png"
+			}
+		}
+		country_leader={
+			ideology = libertarian
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	### POLITICAL ADVISORS ###
+
+	USA_Arthur_Vandenberg={
+		name=USA_Arthur_Vandenberg
+		portraits={
+			civilian={
+				small="GFX_idea_USA_Arthur_Vandenberg"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = USA_Arthur_Vandenberg
+			allowed  = {
+				original_tag  = USA
+			}
+			traits  = {
+				#외무장관
+			}
+		}
+	}
+
+	USA_Henry_Lewis_Stimson={
+		name = USA_Henry_Lewis_Stimson
+		portraits = {
+			civilian = {
+				small = "GFX_idea_USA_Henry_Lewis_Stimson"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = USA_Henry_Lewis_Stimson
+			allowed  = {
+				original_tag  = USA
+			}
+			traits  = {
+				#재무장관
+			}
+		}
+	}
+
+	USA_Theodore_Roosevelt_Jr={
+		name=USA_Theodore_Roosevelt_Jr
+		portraits={
+			civilian={
+				small="GFX_idea_USA_Theodore_Roosevelt_Jr"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = USA_Theodore_Roosevelt_Jr
+			allowed  = {
+				original_tag  = USA
+			}
+			traits  = {
+				#국방장관
+			}
+		}
+	}
+
+	USA_Earl_Warren={
+		name=USA_Earl_Warren
+		portraits={
+			civilian={
+				small="GFX_idea_USA_Earl_Warren"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = USA_Earl_Warren
+			allowed  = {
+				original_tag  = USA
+			}
+			traits  = {
+				#법무장관
+			}
+		}
+	}
+
+	USA_Harold_Stassen={
+		name=USA_Harold_Stassen
+		portraits={
+			civilian={
+				small="GFX_idea_USA_Harold_Stassen"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = USA_Harold_Stassen
+			allowed  = {
+				original_tag  = USA
+			}
+			traits  = {
+				#내무장관
+			}
+		}
+	}
+
+	USA_John_Edgar_Hoover={
+		name=USA_John_Edgar_Hoover
+		portraits={
+			civilian={
+				small="GFX_idea_USA_John_Edgar_Hoover"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = USA_John_Edgar_Hoover
+			allowed  = {
+				original_tag  = USA
+			}
+			traits  = {
+				#정보국장
+			}
+		}
+	}
+}

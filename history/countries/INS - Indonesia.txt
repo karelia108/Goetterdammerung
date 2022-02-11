@@ -16,6 +16,11 @@ set_popularities = {
 	nation_conservatism = 100
 }
 
+add_ideas = {
+	INS_chaotic_Leadership
+	INS_National_Mission
+}
+
 recruit_character = INS_sukarno
 recruit_character = INS_amir_sjarifuddin_harahap
 recruit_character = INS_suharto

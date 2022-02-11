@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+		SIA_unpopular_King = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.2
+			}
+		}
+		SIA_Pyrrhic_Victory = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = -0.3
+				conscription_factor = -0.15
+			}
+		}
+	}
+}

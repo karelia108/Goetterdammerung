@@ -1,7 +1,5 @@
 ﻿capital = 671 #Hanoi
 
-oob = "VIN_1936"
-
 set_research_slots = 2
 
 set_politics = {
@@ -12,6 +10,11 @@ set_politics = {
 }
 set_popularities = {
 	communism = 100
+}
+
+add_ideas = {
+	VIN_collaborator_Emperor
+	VIN_Sleeping_With_The_Enemy
 }
 
 declare_war_on = {

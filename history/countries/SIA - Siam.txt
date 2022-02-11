@@ -1,0 +1,25 @@
+﻿capital = 613 # Nanjing
+
+set_stability = 0.2
+set_war_support = 0.5
+set_research_slots = 3
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = absolutism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	SIA_unpopular_King
+	SIA_Pyrrhic_Victory
+}
+
+set_popularities = {
+	absolutism = 100
+}
+
+recruit_character = CHI_warload
