@@ -16,6 +16,53 @@ ideas = {
 				conscription_factor = -0.5
 				compliance_gain = -0.03
 				operation_boost_resistance_cost = 0.02
+				resistance_growth = 0.1
+			}
+		}
+		KOR_inf = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+		KOR_Governor_general = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.1
+				war_support_factor = -0.2
+				political_power_factor = -0.1
+			}
+		}
+		KOR_provisional_government = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
 			}
 		}
 	}

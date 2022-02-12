@@ -21,6 +21,9 @@ set_popularities = {
 
 add_ideas = {
 	KOR_japan_korea_annex
+	KOR_provisional_government
+	KOR_inf
+	KOR_Governor_general
 }
 
 recruit_character = #
