@@ -24,18 +24,10 @@ set_popularities = {
 	social_democracy = 100
 }
 
-create_faction = Allies
-add_to_faction = ENG
-add_to_faction = CAN
-add_to_faction = AST
-add_to_faction = NZL
-add_to_faction = SAF
-add_to_faction = RAJ
-add_to_faction = MAL
+#leaders
+recruit_character = ENG_clement_attlee
 
-# Order matters - here Chamberlain becomes starting leader
-recruit_character = ENG_oswald_mosley
-recruit_character = ENG_stanley_baldwin
+#
 recruit_character = ENG_winston_churchill
 recruit_character = ENG_harry_pollitt
 recruit_character = ENG_alan_brooke
@@ -103,7 +95,6 @@ recruit_character = ENG_corgis_1
 recruit_character = ENG_corgis_2
 recruit_character = ENG_corgis_3
 recruit_character = ENG_alan_turing
-recruit_character = ENG_clement_attlee
 recruit_character = ENG_ernest_bevin
 recruit_character = ENG_leslie_hore_belisha
 recruit_character = ENG_george_orwell

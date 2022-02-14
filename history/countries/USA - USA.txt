@@ -53,6 +53,18 @@ add_ideas = {
 	Problems_in_the_US
 }
 
+create_faction = WU
+add_to_faction = USA
+add_to_faction = FBE
+add_to_faction = FHL
+add_to_faction = ENG
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = SAF
+add_to_faction = RAJ
+add_to_faction = MAL
+
 
 # DIPLOMACY
 set_autonomy = {
