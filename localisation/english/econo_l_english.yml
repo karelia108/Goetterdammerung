@@ -1,0 +1,29 @@
+﻿l_english:
+
+ GDP_TOOLTIP_BASE:0 "월간 변경사항\n국민 소비로 인한 이익: [?national_consumption|G3] B\n무역으로 인한 이익: [?resource_export|G3] B\n무기 판매로 인한 이익: [?weapon_export|G3] B\n정부의 투자로 인한 이익: [?governmental_investment|G3] B\n\n군사비 지출 감소: [?military_spend|R3] B\n군사비 유지로 인한 감소: [?militaryfactory_upkeep|R3] B\n무기 수입으로 감소: [?weapon_import|R3] B\n\n현재 경제 수준에서는 다음과 같은 효과를 얻을 수 있습니다.:\n\n연구 속도: [?gdp_research_factor|%Y]\n일일 정치력 획득: [?gdp_political_power_factor|%G]\n민간 공장 건설 속도: [?gdp_per_production_speed_civ_factor|%Y]\n안정도 변화: [?gdp_per_stability_factor|%Y]\n\n무기 수출을 통해 다음과 같은 효과를 얻을 수 있습니다.:\n\n군수 공장 건설 속도: [?weapon_export_construction|%G]\n조선소 건설 속도: [?weapon_export_construction|%G]\n민간 공장 건설 속도: [?weapon_export_construction|%G]\n\n무기 수입을 통해 다음과 같은 효과를 얻을 수 있습니다.:\n\n연구 속도: [?weapon_import_research|%G]\n소비재 변화: [?weapon_import_consumer|%R]\n\n"
+ GDP_MAIN:0         "[?gdpmn|3] B"
+ GDP_TOOLTIP:0    "[Root.GetGDPTooltip]"
+
+
+ #######################table definations###########################
+
+ GDP_TITLE_SL:0 "[Root.GetGDPTitle]"
+ GDP_TITLE:0 "세계 국가 GDP"
+
+ GDP_TABLE_OPEN:0 "GDP 열기"
+
+ TABLE_COUNTRY_TT:0 ""
+ TABLE_SORT_TT:0 "정렬하여 보기"
+ TABLE_GROUP_TT:0 "그룹으로 보기"
+ TABLE_REFRESH_TT:0 "이름별로 보기"
+
+ Table_Country:0 "국가"
+ Table_GDP:0 "GDP"
+ Table_GDP_GROWTH:0 "GDP 성장률"
+ Table_POPULATION:0 "인구"
+ Table_POPULATION_CORE:0 "핵심 인구"
+ Table_GDP_PER_CAPITA:0 "1인당 소득"
+ Table_GDP_PER_CAPITA_CORE:0 "1인당 소득 (핵심)"
+ Table_PROPORTION:0 "비율"
+ 
+ GDP_core_modifiers:0 "경제 수준"

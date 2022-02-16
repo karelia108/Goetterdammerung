@@ -1,0 +1,33 @@
+guiTypes = {
+############### surface ############
+	containerWindowType = {
+		name = "gdp_main_Window"
+		position = { x = 1090 y = 4 }	#1100
+		
+		iconType ={
+			name ="gdp_bg"
+			spriteType = "GFX_generic_box"
+			position = { x=0 y=0 }
+		}
+		
+		iconType = {
+			name ="money_icon"
+			spriteType = "GFX_money"
+			position = { x= 3 y = 6 }
+		}
+		
+		instantTextBoxType = {
+			name ="gdp_text"
+			position = { x= 23 y = 4 }
+			font = "hoi_18mbs"
+			text = "GDP_MAIN"
+			format = left
+			maxWidth = 150
+			maxHeight = 24
+			fixedsize = yes
+			
+			
+			pdx_tooltip = "GDP_TOOLTIP" 
+		}
+	}
+}
