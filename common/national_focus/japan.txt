@@ -1,14 +1,117 @@
 focus_tree = {
-	id = japan_wtt_focus
+	id = japan_focus
 	
 	country = {
 		factor = 0
 		modifier = {
-			add = 20
+			add = 10
 			tag = JAP
 		}
 	}
 	
 
 	default = no
+	
+	focus = {
+		id = JAP_Economic_recovery
+		icon = GFX
+		cost = 2
+		available = {
+			
+		}
+		ai_will_do = {
+
+		}
+		prerequisite = {
+			
+		}
+		x = 20
+		y = 0
+		completion_reward = {
+			capital_scope = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = JAP_yen_maintenance
+		icon = GFX
+		cost = 2
+		available = {
+			
+		}
+		ai_will_do = {
+
+		}
+		prerequisite = {
+			focus = JAP_Economic_recovery
+		}
+		x = 18
+		y = 1
+		completion_reward = {
+			add_political_power = 200
+		}
+	}
+	focus = {
+		id = JAP_zaibatsu_reform
+		icon = GFX
+		cost = 2
+		available = {
+			
+		}
+		ai_will_do = {
+
+		}
+		prerequisite = {
+			focus = JAP_Economic_recovery
+		}
+		x = 20
+		y = 1
+		completion_reward = {
+			add_political_power = 200
+		}
+	}
+	focus = {
+		id = JAP_Foreign_Office
+		icon = GFX
+		cost = 2
+		available = {
+			
+		}
+		ai_will_do = {
+
+		}
+		prerequisite = {
+			
+		}
+		x = 14
+		y = 0
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	focus = {
+		id = JAP_open_embassy
+		icon = GFX
+		cost = 2
+		available = {
+			
+		}
+		ai_will_do = {
+
+		}
+		prerequisite = {
+			focus = JAP_Foreign_Office
+		}
+		x = 14
+		y = 1
+		completion_reward = {
+			add_political_power = -30
+		}
+	}
 }
