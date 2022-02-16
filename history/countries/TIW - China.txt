@@ -19,4 +19,8 @@ set_popularities = {
 	absolutism = 100
 }
 
+add_ideas = {
+	TIW_dualized_administration
+}
+
 recruit_character = CHI_warload

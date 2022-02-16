@@ -10,6 +10,6 @@ spriteTypes = {
 	} 
 	spriteType = {
 		name = "GFX_FoS_SuperEvent_Window_border"
-		textureFile = "gfx/interface/FoS_SuperEvent_Window.tga"
+		textureFile = "gfx/interface/FoS_SuperEvent_Window.png"
 	}
 }

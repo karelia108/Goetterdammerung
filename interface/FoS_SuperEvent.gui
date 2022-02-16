@@ -13,12 +13,12 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name ="FoS_SuperEvent_MacArthur_picture" 
+			name ="FoS_SuperEvent_MacArthur" 
 			spriteType = "GFX_FoS_SuperEvent_MacArthur_picture"
 			position = { x=99 y = 112 }
 		}
 		iconType = {
-			name ="FoS_SuperEvent_Eastern_Front_II_picture" 
+			name ="FoS_SuperEvent_Eastern_Front_II" 
 			spriteType = "GFX_FoS_SuperEvent_Eastern_Front_II_picture"
 			position = { x=99 y = 112 }
 		}
