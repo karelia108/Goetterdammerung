@@ -25,7 +25,10 @@ recruit_character = MAN_xian_yuan
 recruit_character = MAN_guan_xingde
 
 add_ideas = {
+	MAN_pui
 	MAN_Bigger_influence
+	MAN_fail_cooperation
+	MAN_fail_army
 }
 
 set_convoys = 10

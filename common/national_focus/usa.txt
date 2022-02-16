@@ -1,0 +1,67 @@
+focus_tree = {
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = USA
+		}
+	}
+
+	focus = {
+		id = USA_practical_progress
+		icon = GFX_focus_USA_practical_progress
+		x = 20
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = USA_Rust_Belt_Support
+		icon = GFX
+		x = 18
+		y = 1
+		prerequisite = {
+			focus = USA_practical_progress
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 11
+		}
+	}
+	focus = {
+		id = USA_Walking_long_way
+		icon = GFX
+		x = 20
+		y = 1
+		prerequisite = {
+			focus = USA_practical_progress
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = USA_Midwest_Plan
+		icon = GFX
+		x = 22
+		y = 1
+		prerequisite = {
+			focus = USA_practical_progress
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 9
+		}
+	}
+}

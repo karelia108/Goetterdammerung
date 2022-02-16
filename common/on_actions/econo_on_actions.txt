@@ -9,7 +9,6 @@ on_actions = {
 
 			every_country = {
 			
-			
 				set_variable = { core_population = 0 }
 				
 				every_owned_state = {

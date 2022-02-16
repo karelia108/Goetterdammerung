@@ -1,0 +1,154 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+		modifier = {
+			add = 10
+			original_tag = GER
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = GER_Extinction
+		icon = GFX_focus_GER_Extinction
+		x = 20
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = GER_Situation_in_Germany
+		icon = GFX_focus_GER_Politics
+		x = 20
+		y = 1
+		prerequisite = {
+			focus = GER_Extinction
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = GER_Politics
+		icon = GFX_focus_berlin_bom
+		x = 20
+		y = 2
+		prerequisite = {
+			focus = GER_Situation_in_Germany
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = GER_Army
+		icon = GFX_focus_ger_furher
+		x = 18
+		y = 2
+		prerequisite = {
+			focus = GER_Situation_in_Germany
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = GER_Normalizing_the_Command_System
+		icon = GFX_focus_GER_Normalizing_the_Command_Systemr
+		x = 17
+		y = 3
+		prerequisite = {
+			focus = GER_Army
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = GER_diplomacy
+		icon = GFX_focus_GER_diplomacy
+		x = 22
+		y = 2
+		prerequisite = {
+			focus = GER_Situation_in_Germany
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = GER_volk_of_one
+		icon = GFX_focus_GER_ein_volk
+		x = 20
+		y = 3
+		prerequisite = {
+			focus = GER_Politics
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = GER_ein_reich
+		icon = GFX_focus_GER_ein_reich
+		x = 20
+		y = 4
+		prerequisite = {
+			focus = GER_volk_of_one
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = GER_ein_fuhrer
+		icon = GFX
+		x = 20
+		y = 5
+		prerequisite = {
+			focus = GER_ein_reich
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+	focus = {
+		id = GER_The_Eiserne_Kreuz
+		icon = GFX_focus_The_Eiserne_Kreuz
+		x = 20
+		y = 6
+		prerequisite = {
+			focus = GER_ein_fuhrer
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+	}
+}

@@ -1,0 +1,60 @@
+focus_tree = {
+	id = soviet_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = SOV_Federation_in_tatters
+		icon = GFX_focus_SOV_Federation_in_tatters
+		x = 10
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	focus = {
+		id = SOV_Another_Revolution
+		icon = GFX_focus_soviet_reform
+		x = 20
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = SOV_Federation_tatter
+			country_event = {
+				id = SOV.1
+				days = 1
+			}
+		}
+	}
+	focus = {
+		id = SOV_Eastern_Front_legacy
+		icon = GFX_focus_SOV_Eastern_Front_legacy
+		prerequisite = {
+			focus = SOV_Federation_in_tatters
+		}
+		prerequisite = {
+			focus = SOV_Another_Revolution
+		}
+		x = 15
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
