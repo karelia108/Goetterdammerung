@@ -1,0 +1,107 @@
+ideas = {
+	country = {
+		MEN_opium = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = -0.2
+				production_speed_infrastructure_factor = 0.2
+				production_speed_rail_way_factor = 0.2
+			}
+		}
+		#
+		MEN_Genghis_Khan = {
+		
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+				cavalry_attack_factor = 0.2
+				cavalry_defence_factor = 0.2
+			}
+		}
+		MEN_fail_army = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				Army_org_factor = -0.6
+				Army_org_regain = -0.2
+				Army_attack_factor = -0.3
+				Army_defence_factor = -0.3
+				custom_modifier_tooltip = MEN_reaserch_no
+			}
+		}
+		MEN_japan = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+				consumer_goods_factor = -0.05
+				Production_speed_buildings_factor = 0.1
+			}
+		}
+		MEN_Unstable_borders = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.002
+				war_support_weekly = -0.005
+				minimum_training_level = -0.2
+			}
+		}
+		MEN_chinese_problems = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				monthly_population = 0.1
+				social_conservatism_drift = 0.01
+				custom_modifier_tooltip = MEN_chinese_problem_tt
+			}
+		}
+	}
+}
