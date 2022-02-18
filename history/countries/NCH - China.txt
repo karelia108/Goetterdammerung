@@ -19,4 +19,4 @@ set_popularities = {
 	absolutism = 100
 }
 
-recruit_character = CHI_warload
+recruit_character = NCH_shigemitsu_mamoru

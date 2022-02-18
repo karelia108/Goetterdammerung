@@ -1,0 +1,15 @@
+characters={
+	NCH_shigemitsu_mamoru={
+		name=NCH_shigemitsu_mamoru
+		portraits={
+			civilian={
+				large="gfx/leaders/NCH/shigemitsu_mamoru.png"
+			}
+		}
+		country_leader={
+			ideology = despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
