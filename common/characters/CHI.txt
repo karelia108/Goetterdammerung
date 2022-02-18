@@ -196,24 +196,6 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
-	CHI_zhang_xueliang={
-		name=CHI_zhang_xueliang
-		portraits={
-			army={
-				large="GFX_portrait_chi_zhang_xueliang"
-				small="GFX_idea_CHI_zhang_xueliang"
-			}
-		}
-		field_marshal={
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
 
 	### THEORISTS ###
 

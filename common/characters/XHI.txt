@@ -1,0 +1,17 @@
+#China War load leaders
+
+characters = {
+	XHI_zhang_xueliang={
+		name=XHI_zhang_xueliang
+		portraits={
+			civilian={
+				large="gfx/leaders/XHI/zhang_xueliang.png"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
