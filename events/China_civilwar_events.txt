@@ -1,0 +1,142 @@
+add_namespace = CHI
+
+country_event = { #
+	id = CHI.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CHI.1"}
+	title = CHI.1.t
+	desc = CHI.1.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = CHI.1.a
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.b
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.c
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.d
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.e
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.f
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.g
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.h
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.i
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.j
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.k
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.l
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.m
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.n
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.o
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.p
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.q
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.r
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.s
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.t
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.u
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.v
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.w
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.x
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.y
+		ai_chance = { base = 1 }
+		
+	}
+	option = { #
+		name = CHI.1.z
+		ai_chance = { base = 1 }
+		
+	}
