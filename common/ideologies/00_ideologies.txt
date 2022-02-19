@@ -524,6 +524,9 @@ ideologies = {
 		
 			despotism = {
 			}
+
+			chinese_war_load = {
+			}
 		}
 
 		dynamic_faction_names = {

@@ -1,5 +1,3 @@
-#China War load leaders
-
 characters = {
 	XHI_zhang_xueliang={
 		name=XHI_zhang_xueliang
@@ -9,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology = chinese_war_load
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -1,4 +1,4 @@
-﻿capital = 613 # Nanjing
+capital = 613 # Nanjing
 
 #leader
 recruit_character = CHI_wang_jingwei
@@ -14,7 +14,6 @@ recruit_character = CHI_hu_zongnan
 recruit_character = CHI_gu_zhutong
 recruit_character = CHI_wei_lihuang
 recruit_character = CHI_fu_zuoyi
-recruit_character = CHI_zhang_xueliang
 recruit_character = CHI_fang_zeyi
 recruit_character = CHI_zhu_de
 recruit_character = CHI_chen_cheng
