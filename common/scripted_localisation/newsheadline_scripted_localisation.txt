@@ -1,0 +1,190 @@
+defined_text = {
+	name = GetNewsHeadline
+	
+	
+	#### FRA
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = news_headline_4
+	}
+	
+	#### ENG
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = news_headline_8
+	}
+	
+	#### GER
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = news_headline_12
+	}
+	
+	#### SOV
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = news_headline_15
+	}
+	
+	#### JAP
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = news_headline_20
+	}
+	
+	#### USA
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = news_headline_26
+	}
+	
+	
+	#### ITA
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_government = fascism
+		}
+		localization_key = news_headline_28
+	}
+	
+	#### BEL
+	text = {
+		trigger = {
+			original_tag = BEL
+		}
+		localization_key = news_headline_33
+	}
+	
+	#### HOL
+	text = {
+		trigger = {
+			original_tag = HOL
+		}
+		localization_key = news_headline_37
+	}
+	####FHL
+	text = {
+		trigger = {
+			original_tag = FHL
+		}
+		localization_key = news_headline_36
+	}
+	
+	
+	#### SPR
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = news_headline_46
+	}
+	
+	#### TUR
+	text = {
+		trigger = {
+			original_tag = TUR
+		}
+		localization_key = news_headline_59
+	}
+	
+	
+	#### China
+	text = {
+		trigger = {
+			original_tag = PRC
+		}
+		localization_key = news_headline_77
+	}
+	text = {
+		trigger = {
+			tag = {
+				XHI
+				NOC
+				GUG
+				SHI
+				SHU
+			}
+		}
+		localization_key = news_headline_78
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = CHI
+				original_tag = NCH
+			}
+		}
+		localization_key = news_headline_79
+	}
+	
+	#MAN
+	text = {
+		trigger = {
+			original_tag = MAN
+		}
+		localization_key = news_headline_83
+	}
+	
+	#MEN
+	text = {
+		trigger = {
+			original_tag = MEN
+		}
+		localization_key = news_headline_85
+	}
+	###
+	text = {
+		trigger = {
+			original_tag = GXC
+		}
+		localization_key = news_headline_86
+	}
+	text = {
+		trigger = {
+			original_tag = SIK
+		}
+		localization_key = news_headline_88
+	}
+	text = {
+		trigger = {
+			original_tag = XSM
+		}
+		localization_key = news_headline_89
+	}
+	text = {
+		trigger = {
+			original_tag = YUN
+		}
+		localization_key = news_headline_90
+	}
+	
+	
+	### DEN ###
+	text = {
+		trigger = {
+			original_tag = DEN
+		}
+		localization_key = news_headline_93
+	}
+	
+	### FIN ###
+	text = {
+		trigger = {
+			original_tag = FIN
+		}
+		localization_key = news_headline_98
+	}
+}
