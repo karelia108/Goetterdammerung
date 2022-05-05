@@ -13,7 +13,7 @@ JAP_house_dec = {
 		visible = {
 			tag = JAP
 		} 
-		days_mission_timeout = 1460
+		days_mission_timeout = 730
 		
 		fixed_random_seed = no
 
