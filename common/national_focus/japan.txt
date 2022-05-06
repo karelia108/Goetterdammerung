@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = JAP_Economic_recovery
 		icon = GFX
-		cost = 2
+		cost = 14
 		available = {
 			
 		}
@@ -41,7 +41,7 @@ focus_tree = {
 	focus = {
 		id = JAP_yen_maintenance
 		icon = GFX
-		cost = 2
+		cost = 14
 		available = {
 			
 		}
@@ -60,7 +60,7 @@ focus_tree = {
 	focus = {
 		id = JAP_zaibatsu_reform
 		icon = GFX
-		cost = 2
+		cost = 14
 		available = {
 			
 		}
@@ -79,7 +79,7 @@ focus_tree = {
 	focus = {
 		id = JAP_Foreign_Office
 		icon = GFX
-		cost = 2
+		cost = 14
 		available = {
 			
 		}
@@ -98,7 +98,7 @@ focus_tree = {
 	focus = {
 		id = JAP_open_embassy
 		icon = GFX
-		cost = 2
+		cost = 14
 		available = {
 			
 		}

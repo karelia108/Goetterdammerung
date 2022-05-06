@@ -68,5 +68,22 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
+		#중점 추가 아이디어
+		MAN_NIIA = {
+			allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_infrastructure_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
 	}
 }
